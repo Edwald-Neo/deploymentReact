@@ -1,0 +1,90 @@
+.company-title {
+    background-color: #000;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    word-spacing: 0.5em;
+}
+
+.company-title-text {
+    font-size: larger;
+    font-weight: 300;
+    color:#0d6efd;
+}
+
+.first-line {
+    text-indent: 50px;
+}
+
+.content {
+    position: relative;
+    left : calc(100% - 85%);
+}
+
+.dropdown-newColor {
+    color:#000 !important;
+    background-color:#000 !important;
+    border:1px solid #0d6efd !important;
+    border-radius:.8rem !important;
+}
+
+.dropdown-item:focus,.dropdown-item:hover {
+    color: #000 !important;
+    background-color:#0d6efd !important;
+    border-radius: 5px;
+    font-style: italic;
+    font-size: 1.3em;
+}
+
+.dropdown-item {
+    color:#0d6efd !important;
+    background-color:#000 !important;
+}
+
+.nav-link:hover {
+    background-color: #0d6efd !important;
+    color: #000;
+    border-radius: 5px;
+}
+
+.dropdown-divider {
+    border-top:3px solid #0d6efd !important;
+}
+
+.oRingLayer {
+    position: relative;
+    z-index: -1;
+}
+
+.homeLayer {
+    position: relative;
+    z-index: -1;
+}
+
+.aboutLayer {
+    position: relative;
+    z-index: -1;
+}
+
+.card-size {
+    width: 18 rem;
+}
+
+.card-img-size {
+    width: 350px;
+}
+
+.material-text {
+    list-style: none;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.material-text-disc {
+    list-style: disc;
+    font-size: 0.8em;
+}
+
+.card-img-top {
+    border-radius: 8% !important;
+}
